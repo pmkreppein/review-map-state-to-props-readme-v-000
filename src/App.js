@@ -27,7 +27,8 @@ class App extends Component {
           <button onClick={() => this.handleOnClickUsers()}>
             Click to change user count
           </button>
-          <p>{this.props.items.length}</p>
+                   <p>Items: {this.props.items.length}</p>
+          <p>Users: {this.props.users.length}</p>
       </div>
     );
   }
